@@ -1,32 +1,15 @@
-[
-  {
-    "_metadata": {
-      "name": "Config Context Schema 1",
-      "description": "Schema for defining first names."
-    },
-    "data_schema": {
-      "title": "Person",
-      "properties": {
-        "firstName": {
-          "type": "string",
-          "description": "The person's first name."
-        },
+{
+  "_metadata": {
+    "name": "Config Context Schema 1",
+    "description": "Schema for defining first names."
+  },
+  "data_schema": {
+    "title": "Person",
+    "properties": {
+      "firstName": {
+        "type": "string",
+        "description": "The person's first name."
       }
     }
-  },
-  {
-    "_metadata": {
-      "name": "Config Context Schema 2",
-      "description": "Schema for defining last names."
-    },
-    "data_schema": {
-      "title": "Person",
-      "properties": {
-        "lastName": {
-          "type": "string",
-          "description": "The person's last name."
-        },
-      }
-    }
-  },
-]
+  }
+}
